@@ -17,10 +17,18 @@ module.exports = function(grunt)
 			}//target
 		}, //uglify
                 watch:
-                        {
-                            files: ['_/components/js/*.js'], 
-                            tasks: ['uglify']
-                           
+                        {   
+                            options: {livereload : true}, 
+                            scripts:
+                                    {
+                                         files: ['_/components/js/*.js'], 
+                                         tasks: ['uglify']
+                                    },    //scripts
+                            html:
+                                    {
+                                        files: ['*.html']
+                                    }
                         }//watch
 	})//initconfig
+        grunt.registerTask('default', 'watch');
 }// exports

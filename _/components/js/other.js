@@ -1,4 +1,4 @@
 function other()
 {
-	return "other";
+	return "hello";
 }
