@@ -109,6 +109,39 @@ p {
   font-size: 1rem;
   color: #2176C7; }
 
+/* line 3, ../components/sass/_layout.scss */
+.layout {
+  padding: 3%; }
+
+/* line 15, ../components/sass/_layout.scss */
+header img {
+  width: 95%;
+  margin: 2.5%;
+  max-width: 500px;
+  margin-bottom: 0; }
+
+/* line 26, ../components/sass/_layout.scss */
+.navigation {
+  background: #175c73; }
+  /* line 33, ../components/sass/_layout.scss */
+  .navigation ul.nav li i {
+    color: #f7b71a;
+    padding-right: .5rem; }
+  /* line 38, ../components/sass/_layout.scss */
+  .navigation ul.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #FCF4DC; }
+
+/* line 49, ../components/sass/_layout.scss */
+footer {
+  color: #EAE3CB;
+  background: #0d3340;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px; }
+
 /* line 5, ../components/sass/_modules.scss */
 .speakers .artist {
   overflow: hidden;
@@ -129,13 +162,43 @@ p {
     margin-right: 10px;
     margin-bottom: 10px; }
 
-/* line 29, ../components/sass/_modules.scss */
+/* line 30, ../components/sass/_modules.scss */
 #nextmeeting {
   overflow: hidden;
   *zoom: 1; }
-  /* line 32, ../components/sass/_modules.scss */
+  /* line 33, ../components/sass/_modules.scss */
   #nextmeeting img {
     width: 30%;
     max-width: 130px;
     float: left;
     margin-right: 3%; }
+
+/* line 46, ../components/sass/_modules.scss */
+.socialmediaicons .title {
+  float: left; }
+/* line 51, ../components/sass/_modules.scss */
+.socialmediaicons ul {
+  float: left; }
+  /* line 55, ../components/sass/_modules.scss */
+  .socialmediaicons ul li {
+    display: inline-block;
+    margin-left: 5px; }
+    /* line 60, ../components/sass/_modules.scss */
+    .socialmediaicons ul li img {
+      width: 30px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+
+/* line 70, ../components/sass/_modules.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 74, ../components/sass/_modules.scss */
+  .pixgrid img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 30%;
+    max-width: 120px;
+    cursor: pointer; }
